@@ -5,7 +5,7 @@ import plotly.express as px
 
 # ตั้งค่าหน้า Dashboard
 st.set_page_config(
-    page_title="Factory Dashboard",
+    page_title="FACTORY PRODUCTION DASHBOARD ",
     page_icon="🏭",
     layout="wide"
 )
@@ -36,7 +36,7 @@ df, downtime_df = load_data()
 st.sidebar.markdown(
     """
     <h2 style="color:#166534;">
-        ⚙️ Factory Filter
+        ⚙️ เมนู ควัยเนอส
     </h2>
     <p style="color:#64748B; font-size:13px;">
         Select production conditions
@@ -197,10 +197,6 @@ with col4:
         label="Defect Quantity",
         value=f"{total_defect:,.0f}"
     )
-
-# =================================
-# PRODUCTION VS TARGET CHART
-# =================================
 
 # =================================
 # PRODUCTION VS TARGET CHART
