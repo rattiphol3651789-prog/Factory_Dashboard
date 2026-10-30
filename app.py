@@ -36,7 +36,7 @@ df, downtime_df = load_data()
 st.sidebar.markdown(
     """
     <h2 style="color:#166534;">
-        ⚙️ เมนู ควัยเนอส
+        ⚙️ SIDEBAR FILTER
     </h2>
     <p style="color:#64748B; font-size:13px;">
         Select production conditions
